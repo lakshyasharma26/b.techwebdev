@@ -313,7 +313,7 @@
       <a href="#about" class="mobile-link py-2 text-slate-200 hover:text-cyan-400 font-medium">About Me</a>
       <a href="#services" class="mobile-link py-2 text-slate-200 hover:text-cyan-400 font-medium">Services</a>
       <a href="#projects" class="mobile-link py-2 text-slate-200 hover:text-cyan-400 font-medium">Projects</a>
-      <a href="#tech" class="mobile-link py-2 text-slate-200 hover:text-cyan-400 font-medium">Tech Stack</a>
+      <a href="#tech" class="mobi+le-link py-2 text-slate-200 hover:text-cyan-400 font-medium">Tech Stack</a>
       <a href="#contact" class="mobile-link py-2 text-slate-200 hover:text-cyan-400 font-medium">Contact</a>
       <a href="#contact" class="py-3 rounded-xl bg-gradient-to-r from-cyan-500 to-purple-600 text-white font-bold text-sm">
         Hire Me / Get Quote
@@ -662,8 +662,8 @@
       </div>
     </section>
 
-    <!-- 4. Projects Showcase Section (Compact Gap) -->
-    <section id="projects" class="py-10 px-4 sm:px-8 max-w-7xl mx-auto">
+    <!-- 4. Projects Showcase Section (Updated with Real Live Projects) -->
+    <section id="projects" class="py-12 px-4 sm:px-8 max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
         <div>
           <span class="text-xs font-extrabold uppercase tracking-widest text-cyan-400 bg-cyan-950/60 px-3.5 py-1.5 rounded-lg border border-cyan-500/30">
@@ -672,14 +672,14 @@
           <h2 class="font-display font-extrabold text-3xl sm:text-4xl text-white mt-2">
             Real-World Impactful Builds
           </h2>
-          <p class="text-slate-400 text-sm mt-1">Explore custom web solutions delivered across multiple industries by Lakshya Sharma.</p>
+          <p class="text-slate-400 text-sm mt-1">Live deployed projects engineered by Lakshya Sharma. Click "Visit Live" to explore each app.</p>
         </div>
 
         <!-- Filter Buttons -->
         <div class="flex flex-wrap gap-2 p-1.5 rounded-2xl glass-panel border border-white/10">
-          <button class="filter-btn active px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-cyan-500 text-black shadow-md" data-filter="all">All</button>
+          <button class="filter-btn active px-4 py-2 rounded-xl text-xs font-semibold transition-all bg-cyan-500 text-black shadow-md" data-filter="all">All (6)</button>
           <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white transition-all" data-filter="ecommerce">E-Commerce</button>
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white transition-all" data-filter="crm">CRM & Dashboards</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white transition-all" data-filter="crm">CRM & Business</button>
           <button class="filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-300 hover:text-white transition-all" data-filter="webapp">Web Apps</button>
         </div>
       </div>
@@ -687,194 +687,206 @@
       <!-- Project Cards Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="projects-container">
         
-        <!-- Project 1 -->
+        <!-- 1. SpareWallah (EV Spare Parts E-Commerce) -->
         <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="ecommerce">
-          <div class="h-44 w-full bg-gradient-to-br from-indigo-950 via-slate-900 to-cyan-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-cyan-500/5 group-hover:bg-cyan-500/15 transition-all"></div>
-            <i class="fa-solid fa-store text-6xl text-cyan-400/30 group-hover:text-cyan-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30">
-              Live & Deployed
+          <div class="h-44 w-full bg-gradient-to-br from-amber-950 via-slate-900 to-cyan-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
+            <div class="absolute inset-0 bg-amber-500/10 group-hover:bg-amber-500/20 transition-all"></div>
+            <i class="fa-solid fa-car-battery text-6xl text-amber-400/40 group-hover:text-amber-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Live & Verified
             </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">Vercel</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Node.js</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Express</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Stripe API</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">MongoDB</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-amber-300">EV Parts Catalog</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Node / Express</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">B2B & Retail</span>
               </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">E-Commerce Store & Admin Portal</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Full-featured storefront with multi-currency checkout, dynamic inventory tracking, customer orders, and vendor dashboard.
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">SpareWallah</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Specialized EV & automotive spare parts marketplace with category filtering, detailed specifications, quick search, and instant inquiry checkout.
               </p>
             </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('E-Commerce Store & Admin Portal', 'Complete online store featuring instant cart calculations, secure checkout, discount coupon engine, WhatsApp automated dispatch alerts, and admin dashboard for sales graph analysis.')" class="text-xs font-semibold text-cyan-400 hover:text-cyan-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('SpareWallah - EV Spare Parts Store', 'SpareWallah is a high-speed automotive parts platform tailored for electric vehicle spares and industrial components. Features include dynamic SKU filtering, fast-loading product catalogs, mobile-optimized checkout, and direct WhatsApp inquiry connectivity.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
               </button>
-              <span class="text-[11px] text-slate-500 font-mono">B2C Retail</span>
+              <a href="https://sparewallah-public.vercel.app/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500 hover:text-black font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
             </div>
           </div>
         </div>
 
-        <!-- Project 2 -->
+        <!-- 2. ShopEase (Full Stack E-Commerce Platform) -->
+        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="ecommerce">
+          <div class="h-44 w-full bg-gradient-to-br from-indigo-950 via-slate-900 to-purple-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
+            <div class="absolute inset-0 bg-indigo-500/10 group-hover:bg-indigo-500/20 transition-all"></div>
+            <i class="fa-solid fa-cart-shopping text-6xl text-cyan-400/40 group-hover:text-cyan-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Live & Verified
+            </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">Vercel</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex flex-wrap gap-1.5 mb-2.5">
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Full Storefront</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">Cart & Checkout</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">Responsive UI</span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">ShopEase Store</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Full-stack modern e-commerce storefront with real-time cart calculations, instant search, responsive grid layouts, and seamless buyer checkout flow.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('ShopEase E-Commerce Platform', 'ShopEase is a full-fledged online shopping engine offering instant item search, interactive cart drawer, product badges, and automated pricing calculations with zero lag.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
+              </button>
+              <a href="https://shopease-public.vercel.app/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500 hover:text-black font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. Sipora New CRM (Plant Operations & Order Portal) -->
         <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="crm">
           <div class="h-44 w-full bg-gradient-to-br from-purple-950 via-slate-900 to-indigo-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-purple-500/5 group-hover:bg-purple-500/15 transition-all"></div>
-            <i class="fa-solid fa-users-gear text-6xl text-purple-400/30 group-hover:text-purple-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-purple-500/20 text-purple-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-purple-500/30">
-              Enterprise Solution
+            <div class="absolute inset-0 bg-purple-500/10 group-hover:bg-purple-500/20 transition-all"></div>
+            <i class="fa-solid fa-chart-line text-6xl text-purple-400/40 group-hover:text-purple-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-purple-500/20 text-purple-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-purple-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-purple-400 animate-ping"></span> Enterprise Portal
             </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">Netlify</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">React</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">Node API</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">PostgreSQL</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">Charts.js</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-purple-300">Custom ERP / CRM</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Order Management</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">Billing Sync</span>
               </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">Enterprise CRM & Lead Manager</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Internal sales management platform handling 10,000+ monthly leads, agent performance pipelines, and automated follow-ups.
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">Sipora Custom CRM</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Tailor-made manufacturing and delivery CRM portal automating customer orders, dispatch schedules, distributor ledgers, and revenue records.
               </p>
             </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('Enterprise CRM & Lead Manager', 'Centralized dashboard with role-based access (SuperAdmin, Telecaller, Sales Exec), interactive Kanban pipeline, invoice generator, and automated export to Excel/CSV.')" class="text-xs font-semibold text-purple-400 hover:text-purple-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('Sipora New CRM & ERP Portal', 'Custom enterprise software developed to run water plant supply chain operations. Handles vendor database, daily bottle dispatch counts, billing invoices, customer outstanding balances, and sales performance.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
               </button>
-              <span class="text-[11px] text-slate-500 font-mono">B2B SaaS</span>
+              <a href="https://siporanewcrm.netlify.app/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-purple-500/20 text-purple-300 border border-purple-500/30 hover:bg-purple-500 hover:text-white font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
             </div>
           </div>
         </div>
 
-        <!-- Project 3 -->
-        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="webapp">
-          <div class="h-44 w-full bg-gradient-to-br from-cyan-950 via-slate-900 to-emerald-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-emerald-500/5 group-hover:bg-emerald-500/15 transition-all"></div>
-            <i class="fa-solid fa-laptop-medical text-6xl text-emerald-400/30 group-hover:text-emerald-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-cyan-500/20 text-cyan-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-cyan-500/30">
-              Healthcare Web App
-            </span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">Tailwind</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">JavaScript</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">REST APIs</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">AWS S3</span>
-              </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">Clinic & Tele-Consultancy Portal</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Doctor appointment booking platform with patient history, medical prescription uploads, and automated reminders.
-              </p>
-            </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('Clinic & Tele-Consultancy Portal', 'Patient portal equipped with interactive calendar booking slots, doctor availability sync, integrated payment gateway, and prescription download module.')" class="text-xs font-semibold text-emerald-400 hover:text-emerald-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-              </button>
-              <span class="text-[11px] text-slate-500 font-mono">Healthcare</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 4 -->
-        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="webapp">
-          <div class="h-44 w-full bg-gradient-to-br from-blue-950 via-slate-900 to-indigo-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-blue-500/5 group-hover:bg-blue-500/15 transition-all"></div>
-            <i class="fa-solid fa-file-invoice text-6xl text-blue-400/30 group-hover:text-blue-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-blue-500/20 text-blue-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-blue-500/30">
-              Automation App
-            </span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-blue-300">Node.js</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-blue-300">Puppeteer</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-blue-300">Express</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-blue-300">PDFKit</span>
-              </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">Automated Document & Certificate Maker</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Bulk dynamic PDF generator for academic credentials, tax invoices, and verification QR codes running on serverless workers.
-              </p>
-            </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('Automated Document & Certificate Maker', 'Generates 5,000+ digitally signed verifiable PDF credentials in minutes via CSV uploads, complete with dynamic QR verification pages.')" class="text-xs font-semibold text-blue-400 hover:text-blue-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-              </button>
-              <span class="text-[11px] text-slate-500 font-mono">EdTech</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="ecommerce">
-          <div class="h-44 w-full bg-gradient-to-br from-amber-950 via-slate-900 to-orange-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-amber-500/5 group-hover:bg-amber-500/15 transition-all"></div>
-            <i class="fa-solid fa-boxes-stacked text-6xl text-amber-400/30 group-hover:text-amber-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-amber-500/20 text-amber-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-amber-500/30">
-              B2B Wholesale
-            </span>
-          </div>
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-amber-300">Next.js</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-amber-300">Tailwind</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-amber-300">PostgreSQL</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-amber-300">Razorpay</span>
-              </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">B2B Wholesale Spare Parts Catalog</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Industrial catalog with tiered wholesale pricing, minimum order quantity rules, GST invoicing, and quote negotiations.
-              </p>
-            </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('B2B Wholesale Spare Parts Catalog', 'A high-speed industrial parts catalog with 40,000+ SKUs, live search filtering, bulk quotation cart, and automated GST billing engine.')" class="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-              </button>
-              <span class="text-[11px] text-slate-500 font-mono">Wholesale</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project 6 -->
+        <!-- 4. Sipora Packaged Drinking Water (Brand Landing Page) -->
         <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="crm">
-          <div class="h-44 w-full bg-gradient-to-br from-rose-950 via-slate-900 to-indigo-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
-            <div class="absolute inset-0 bg-rose-500/5 group-hover:bg-rose-500/15 transition-all"></div>
-            <i class="fa-solid fa-cubes-stacked text-6xl text-rose-400/30 group-hover:text-rose-400/80 group-hover:scale-110 transition-all duration-300"></i>
-            <span class="absolute top-4 left-4 bg-rose-500/20 text-rose-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-rose-500/30">
-              Real-Time Dashboard
+          <div class="h-44 w-full bg-gradient-to-br from-cyan-950 via-slate-900 to-blue-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
+            <div class="absolute inset-0 bg-cyan-500/10 group-hover:bg-cyan-500/20 transition-all"></div>
+            <i class="fa-solid fa-bottle-water text-6xl text-cyan-400/40 group-hover:text-cyan-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-cyan-500/20 text-cyan-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-cyan-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span> Live Brand Site
             </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">Netlify</span>
           </div>
           <div class="p-5 flex-1 flex flex-col justify-between">
             <div>
               <div class="flex flex-wrap gap-1.5 mb-2.5">
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-rose-300">Three.js</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-rose-300">WebSockets</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-rose-300">Node</span>
-                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-rose-300">Redis</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">Manufacturing Brand</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">Modern Layout</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">B2B Inquiries</span>
               </div>
-              <h3 class="font-display font-bold text-base text-white mb-1.5">Live Fleet & Delivery Operations CRM</h3>
-              <p class="text-slate-300 text-xs leading-relaxed mb-3">
-                Interactive real-time fleet map, driver order assignments, instant push notifications, and dispatch delivery confirmation.
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">Sipora Water Official</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Official web presence and digital branding showcase for packaged drinking water, product purification standards, and wholesale distribution inquiries.
               </p>
             </div>
-            <div class="flex items-center justify-between pt-3 border-t border-white/10">
-              <button onclick="previewProject('Live Fleet & Delivery Operations CRM', 'Low latency logistics platform mapping active delivery riders in real-time with automated geofence triggers and instant customer SMS updates.')" class="text-xs font-semibold text-rose-400 hover:text-rose-300 flex items-center gap-1.5">
-                <span>View Details</span>
-                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('Sipora Water Official Web Presence', 'Production brand landing site designed for Sipora Water Plant packaging operations. Highlights laboratory grade filtration stages, product bottle variants (250ml, 500ml, 1L, 2L), and dealer contact channels.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
               </button>
-              <span class="text-[11px] text-slate-500 font-mono">Logistics</span>
+              <a href="https://siporawater.netlify.app" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500 hover:text-black font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Chirag Healthcare Consultancy (Consultancy & Empanelment Portal) -->
+        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="crm">
+          <div class="h-44 w-full bg-gradient-to-br from-emerald-950 via-slate-900 to-teal-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
+            <div class="absolute inset-0 bg-emerald-500/10 group-hover:bg-emerald-500/20 transition-all"></div>
+            <i class="fa-solid fa-hospital-user text-6xl text-emerald-400/40 group-hover:text-emerald-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-emerald-500/20 text-emerald-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-emerald-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Healthcare & B2B
+            </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">Netlify</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex flex-wrap gap-1.5 mb-2.5">
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-emerald-300">Hospital Empanelment</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">NABH / NABL / GIC</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">Consultancy</span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">Chirag Consultancy</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Professional healthcare accreditation portal for hospitals and diagnostic labs covering NABH, NABL, Ayushman Bharat, and insurance empanelments.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('Chirag Healthcare Consultancy Portal', 'A high-authority corporate consulting web portal explaining multi-tier hospital accreditation processes, audit preparation, regulatory compliance, and seamless lead acquisition forms.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
+              </button>
+              <a href="https://chiragconsultancy.netlify.app" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 hover:bg-emerald-500 hover:text-black font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Resource Nest (Academic Repository & Study Vault) -->
+        <div class="project-item glass-card rounded-2xl overflow-hidden border border-white/10 group flex flex-col" data-category="webapp">
+          <div class="h-44 w-full bg-gradient-to-br from-rose-950 via-slate-900 to-indigo-950 relative overflow-hidden flex items-center justify-center p-6 border-b border-white/5">
+            <div class="absolute inset-0 bg-rose-500/10 group-hover:bg-rose-500/20 transition-all"></div>
+            <i class="fa-solid fa-graduation-cap text-6xl text-rose-400/40 group-hover:text-rose-400/90 group-hover:scale-110 transition-all duration-300"></i>
+            <span class="absolute top-4 left-4 bg-cyan-500/20 text-cyan-300 text-[10px] font-bold px-2.5 py-1 rounded-full border border-cyan-500/30 flex items-center gap-1.5">
+              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-ping"></span> Live Web App
+            </span>
+            <span class="absolute top-4 right-4 text-[10px] font-mono text-slate-400 bg-black/50 px-2 py-0.5 rounded border border-white/10">GitHub Pages</span>
+          </div>
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex flex-wrap gap-1.5 mb-2.5">
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-rose-300">EdTech Hub</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-cyan-300">B.Tech Vault</span>
+                <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-white/5 text-slate-300">PDFs & Notes</span>
+              </div>
+              <h3 class="font-display font-bold text-lg text-white mb-1.5">Resource Nest</h3>
+              <p class="text-slate-300 text-xs leading-relaxed mb-4">
+                Curated academic repository and engineering resource vault providing subject-wise notes, question banks, syllabus guides, and instant study materials.
+              </p>
+            </div>
+            <div class="flex items-center justify-between pt-3 border-t border-white/10 gap-2">
+              <button onclick="previewProject('Resource Nest - Student Knowledge Hub', 'A centralized learning portal organizing engineering branch subjects, semester-wise curated study notes, previous year question papers, and direct one-click PDF reading access.')" class="text-xs font-semibold text-slate-400 hover:text-white transition-colors">
+                Details
+              </button>
+              <a href="https://lakshyasharma26.github.io/Resource_Nest/" target="_blank" rel="noopener noreferrer" class="px-3.5 py-1.5 rounded-lg bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 hover:bg-cyan-500 hover:text-black font-semibold text-xs flex items-center gap-1.5 transition-all">
+                <span>Visit Live</span>
+                <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -1129,8 +1141,7 @@
             Architecting modern websites, enterprise CRMs, seamless e-commerce platforms, and interactive 3D web applications with high reliability. Founded and directed by Lakshya Sharma.
           </p>
           <div class="flex items-center gap-3 pt-1">
-            <a href="https://github.com" target="_blank" class="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors"><i class="fa-brands fa-github text-xs"></i></a>
-            <a href="https://linkedin.com" target="_blank" class="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors"><i class="fa-brands fa-instagram text-xs"></i></a>
+            <a href="https://www.instagram.com/b.tech_web_wallah?obrf=MTAweDNtOGFxeTIweQ==" target="_blank" class="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors"><i class="fa-brands fa-instagram text-xs"></i></a>
             <a href="https://wa.me/917668133191" target="_blank" class="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-emerald-400 hover:border-emerald-400 transition-colors"><i class="fa-brands fa-whatsapp text-xs"></i></a>
             <a href="mailto:lakshyasharma2601@gmail.com" class="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-slate-300 hover:text-cyan-400 hover:border-cyan-400 transition-colors"><i class="fa-regular fa-envelope text-xs"></i></a>
           </div>
